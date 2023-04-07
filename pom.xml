@@ -26,6 +26,13 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
+<repositories> 
+     <repository> 
+       <id>nexus</id> 
+       <name>proxy repo</name> 
+<url>http://107.21.188.203:8081/repository/declaraative-proxy/</url> 
+     </repository> 
+   </repositories>
 
 	<dependencies>
 		
